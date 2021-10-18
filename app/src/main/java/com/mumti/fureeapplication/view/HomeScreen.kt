@@ -69,7 +69,7 @@ fun ClothesList(clothesList: List<ClothesItem>, actions: MainActions) {
                     Column {
                         Text(
                             text = "Find the best \n" +
-                                    " clothes for you",
+                                    "clothes for you",
                             style = Typography.h5,
                             color = buttonColor
                         )
@@ -94,7 +94,7 @@ fun ClothesList(clothesList: List<ClothesItem>, actions: MainActions) {
             ) {
                 Text(
                     text = "Categories",
-                    style = Typography.h5,
+                    style = Typography.h6,
                     color = primaryTextColor
                 )
                 Text(
@@ -116,7 +116,7 @@ fun ClothesList(clothesList: List<ClothesItem>, actions: MainActions) {
 
             Text(
                 text = "New arrivals",
-                style = Typography.h5,
+                style = Typography.h6,
                 color = primaryTextColor,
                 modifier = Modifier.padding(start = 20.dp)
             )

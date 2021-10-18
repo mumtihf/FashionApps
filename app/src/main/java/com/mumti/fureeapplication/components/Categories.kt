@@ -67,7 +67,7 @@ fun ItemCategory(
         Card(
             modifier = Modifier
                 .clip(RoundedCornerShape(50))
-                .border(1.dp, Color.LightGray),
+                .border(1.dp, Color.LightGray, RoundedCornerShape(50)),
             elevation = if (isSelected) 20.dp else 5.dp
         ) {
             Surface(

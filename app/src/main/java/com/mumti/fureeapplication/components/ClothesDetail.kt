@@ -288,9 +288,9 @@ fun Size(
             Text(
                 text = size,
                 style = Typography.button,
-                color = primaryTextColor,
+                color = if (isSelected) Color.White else primaryTextColor,
                 modifier = Modifier
-                    .background(if (isSelected) activeHighlightColor else Color.Transparent)
+                    .background(if (isSelected) activeHighlightColor else Color.Transparent),
             )
         }
     }
