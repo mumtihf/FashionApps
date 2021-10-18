@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Everlane Easy Blazer",
+    "price": "102.00",
+    "store": "Ucito Apparel",
+    "imageUrl": "https://i.pinimg.com/564x/42/4f/de/424fdef877778b9a3fff235cfb84533a.jpg",
+    "longDescription": "Clothing that is very comfortable to use for daily activities and is not hot. It is suitable to use for every situation too.",
+    "sizeChart": ["S", "M", "L", "XL"]
+  },
+  {
+    "name": "Female Blazer",
+    "price": "60.67",
+    "store": "Afrikrea",
+    "imageUrl": "https://i.pinimg.com/564x/8a/79/7c/8a797cb27647f8b9d1c1e0807bbc2986.jpg",
+    "longDescription": "This beautiful jacket is made with high quality fabrics that guarantees comfort and durability, it is suitable for all kind of occasions and can be worn with any kind of trouser or jeans. for custom design and order, please feel free to talk to us at any time. we hope you have a pleasurable shopping experience.",
+    "sizeChart": ["M", "L", "XL"]
+  },
+  {
+    "name": "Chic Khaki Suit Blazer",
+    "price": "69.90",
+    "store": "Unikwe",
+    "imageUrl": "https://i.pinimg.com/564x/0a/bd/42/0abd427e05a4b126f2c5d8414daa1a50.jpg",
+    "longDescription": "Chic Khaki Suit Coat - UnikWe Boutique",
+    "sizeChart": ["M", "L"]
+  },
+  {
+    "name": "Black Night Blazer",
+    "price": "69.00",
+    "store": "ShopLTK",
+    "imageUrl": "https://i.pinimg.com/564x/43/6c/ea/436ceaf0436fde1e3b4b0f619ab2ccc3.jpg",
+    "longDescription": "Shop Blazer 'Blake Night Blazer … and other curated products on LTK, the easiest way to shop everything from your favorite influencers.",
+    "sizeChart": ["S", "L", "XL"]
+  },
+  {
+    "name": "Chich Business Casual Blazer",
+    "price": "140.00",
+    "store": "ChipPursuit",
+    "imageUrl": "https://i.pinimg.com/564x/8a/c6/bb/8ac6bb570ebe4286e631e2ff032e0985.jpg",
+    "longDescription": "Business Casual Outfits For Work In The Office: Plaid Blazer Outfit With Black Jeans | These work outfits for women and young professionals are perfect to wear to interviews, for internships and for everyday wear in the office. We’ve included the best summer business casual outfits, and also the best winter work outfits for women.",
+    "sizeChart": ["S", "M", "XL"]
+  },
+  {
+    "name": "Luxe Blazer",
+    "price": "100.00",
+    "store": "Fashion Jackson",
+    "imageUrl": "https://i.pinimg.com/564x/2a/43/c6/2a43c64a73bad5c590bcf7eff4b1b763.jpg",
+    "longDescription": "Business Casual Outfits For Work In The Office: Plaid Blazer Outfit With Black Jeans | These work outfits for women and young professionals are perfect to wear to interviews, for internships and for everyday wear in the office. We’ve included the best summer business casual outfits, and also the best winter work outfits for women.",
+    "sizeChart": ["S", "M"]
+  },
+  {
+    "name": "Lorna Luxe Camel Wool Blazer",
+    "price": "26.00",
+    "store": "In The Style",
+    "imageUrl": "https://i.pinimg.com/564x/93/f1/78/93f178bfebea6173b24c282a67240763.jpg",
+    "longDescription": "Order the Lorna Luxe Camel Wool Look Blazer Style Coat from In The Style. Shop today with next day delivery available until 10pm",
+    "sizeChart": ["S", "M", "L", "XL"]
+  },
+  {
+    "name": "White Blazer",
+    "price": "50.00",
+    "store": "The Closet Crush",
+    "imageUrl": "https://i.pinimg.com/564x/34/38/ad/3438ad2f8d7bf85b221be4912b606eea.jpg",
+    "longDescription": "This blazer is currently under $100! Worn this blazer a TON for work with slacks, with jeans and with joggers over the weekend. Super versatile and chic at the same time – right up your alley!",
+    "sizeChart": ["S", "M", "L", "XL"]
+  },
+  {
+    "name": "Casual Style Workwear Blazer",
+    "price": "35.00",
+    "store": "ProLyf Styles",
+    "imageUrl": "https://i.pinimg.com/564x/da/19/8d/da198db46cb300e627480076ab2bd9a4.jpg",
+    "longDescription": "The Casual Style Workwear Blazer is waiting to go places with you. So many ways to wear it. Wear it your way. Wear it paired with jeans or accompanied by camisole on the inside. Great for an easy laid-back look. Perfect for everyday wear and at a great price so you can get several! Free Shipping Available! The Casual Style Workwear Blazer features: A high-quality blazer for women that is very stylish and fashionable. A proven design that is elegant and classy guaranteed to dress up any outfit.",
+    "sizeChart": ["S", "M", "L", "XL"]
+  },
+  {
+    "name": "Ivory Single Breasted Blazer",
+    "price": "40.00",
+    "store": "Like To Know",
+    "imageUrl": "https://i.pinimg.com/564x/fb/37/95/fb3795aaff40c6a62a9110ba1cd05830.jpg",
+    "longDescription": "Shop Ivory Single Breasted Blazer and other curated products on LTK, the easiest way to shop everything from your favorite influencers.",
+    "sizeChart": ["S", "M", "L", "XL"]
+  }
+]

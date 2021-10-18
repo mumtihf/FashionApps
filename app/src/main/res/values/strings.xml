@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">FureeApplication</string>
+    <string name="text_getStarted">Get Started</string>
+    <string name="text_clothesList">Clothes List</string>
+    <string name="text_clothesDetails">Clothes Details</string>
+    <string name="search">Search your clothes</string>
+    <string name="store">Official Store</string>
+    <string name="size">Select Size</string>
+    <string name="add">Add to cart</string>
+    <string name="start">Get Started</string>
+    <string name="heading1">Find your best outfit</string>
+    <string name="heading2">and look great</string>
+    <string name="caption1">Shop here and get benefits and</string>
+    <string name="caption2">world quality goods</string>
+</resources>
