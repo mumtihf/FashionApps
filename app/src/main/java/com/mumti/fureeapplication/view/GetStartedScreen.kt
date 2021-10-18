@@ -1,6 +1,5 @@
 package com.mumti.fureeapplication.view
 
-import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.CircleShape
@@ -18,9 +17,12 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
+import coil.compose.rememberImagePainter
+import coil.size.OriginalSize
 import com.mumti.fureeapplication.R
 import com.mumti.fureeapplication.navigation.MainActions
 import com.mumti.fureeapplication.ui.theme.*
+import androidx.compose.foundation.Image
 
 @Composable
 fun GetStartedScreen(actions: MainActions) {
@@ -39,18 +41,12 @@ fun StartScreen(actions: MainActions) {
                 )
             ))
     ) {
-        Card(
-            modifier = Modifier
-                .fillMaxSize()
-                .align(Alignment.CenterStart)
-                .background(Color.Transparent),
-            backgroundColor = Color.Transparent,
-        ) {
-            Image(
-                painter = painterResource(id = R.drawable.search),
-                contentDescription = "Start"
-            )
-        }
+        Image(
+            painter = painterResource(id = R.drawable.online_shopping),
+            contentDescription = "Start",
+            modifier = Modifier.align(Alignment.Center)
+        )
+
         Card(
             modifier = Modifier
                 .padding(20.dp)
