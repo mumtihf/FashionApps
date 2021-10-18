@@ -110,16 +110,17 @@ fun ImageCard(
             ) {
                 Row {
                     Icon(
-                        painter = painterResource(id = R.drawable.ic_outline_favorite_border_24),
+                        painter = painterResource(id = R.drawable.ic_baseline_favorite_24),
                         contentDescription = "Favorite",
-
-                        modifier = Modifier.size(24.dp)
+                        modifier = Modifier.size(24.dp),
+                        tint = Color.Red
                     )
                     Spacer(modifier = Modifier.width(5.dp))
                     Icon(
                         painter = painterResource(id = R.drawable.ic_baseline_shopping_bag_24), 
                         contentDescription = "Cart",
-                        modifier = Modifier.size(24.dp)
+                        modifier = Modifier.size(24.dp),
+                        tint = Color.White
                     )
                 }
             }

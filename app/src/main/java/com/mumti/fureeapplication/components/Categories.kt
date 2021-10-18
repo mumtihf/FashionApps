@@ -68,7 +68,7 @@ fun ItemCategory(
             modifier = Modifier
                 .clip(RoundedCornerShape(50))
                 .border(1.dp, Color.LightGray),
-            elevation = 10.dp
+            elevation = if (isSelected) 20.dp else 5.dp
         ) {
             Surface(
                 shape = RoundedCornerShape(50)
@@ -82,11 +82,13 @@ fun ItemCategory(
                 ) {
                     Icon(
                         painter = painterResource(id = item.iconId),
-                        contentDescription = "Category")
+                        contentDescription = "Category",
+                        tint = if (isSelected) Color.White else buttonColor
+                    )
                     Spacer(modifier = Modifier.width(8.dp))
                     Text(
                         text = item.title,
-                        style = Typography.body1,
+                        style = Typography.body2,
                         color = if (isSelected) Color.White else primaryTextColor
                     )
                 }
