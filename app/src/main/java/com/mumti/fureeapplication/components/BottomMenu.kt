@@ -4,6 +4,8 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.material.BottomNavigation
+import androidx.compose.material.BottomNavigationItem
 import androidx.compose.material.Icon
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -65,13 +67,21 @@ fun BottomMenuItem(
             modifier = Modifier
                 .clip(CircleShape)
                 .size(28.dp)
-                .background(if (isSelected) activeHighlightColor else Color.Transparent)
         ) {
-            Icon(
-                painter = painterResource(id = item.iconId),
-                contentDescription = null,
-                modifier = Modifier.size(28.dp)
-            )
+            BottomNavigation {
+                BottomNavigationItem(
+                    selected = isSelected,
+                    onClick = onItemClick,
+                    icon = {
+                        Icon(
+                            painter = painterResource(id = item.iconId),
+                            contentDescription = null,
+                            modifier = Modifier.size(28.dp),
+                            tint = if (isSelected) activeHighlightColor else Color.DarkGray
+                        )
+                    }
+                )
+            }
         }
     }
 }

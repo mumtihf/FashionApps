@@ -52,6 +52,7 @@ fun ClothesList(clothesList: List<ClothesItem>, actions: MainActions) {
         Column {
             TopBar()
 
+            // Search Card
             Box {
                 Box(modifier = Modifier
                     .padding(start = 20.dp, end = 20.dp)
